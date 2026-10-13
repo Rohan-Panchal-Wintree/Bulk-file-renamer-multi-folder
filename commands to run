@@ -1,0 +1,6 @@
+Run this commands in the sequence :
+
+1. node index.js scan - Scans all the files in a specific folders and gives thier names
+2. node index.js preview - Shows the preview of what current file names will look like when replaced with new names
+3. node index.js rename - Does the actual renaming of folders
+4. node index.js undo - If any thing seems wrong than this will change all the file names again to the previous names but (Note: if the history.json is deleted from the /output folder thaan it may be hard to chaange the names again )
